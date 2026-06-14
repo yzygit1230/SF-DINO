@@ -42,13 +42,13 @@ validation set for selecting the best checkpoint, and uses the held-out fold
 only for the final test:
 
 ```bash
-python train.py --dataset_root /path/to/DatasetMM --epochs 300 --batch_size 24
+python train_5fold.py --dataset_root /path/to/DatasetMM --epochs 300 --batch_size 24
 ```
 
 Re-evaluate all saved best checkpoints and generate out-of-fold metrics:
 
 ```bash
-python test.py --dataset_root /path/to/DatasetMM --checkpoint_dir outputs/5fold
+python test_5fold.py --dataset_root /path/to/DatasetMM --checkpoint_dir outputs/5fold
 ```
 
 ### Dataset Access
