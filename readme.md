@@ -20,9 +20,6 @@
 
 **Figure 2. MM diagnosis performance of SF-DINO. (a) t-SNE plot. (b) Confusion matrix. (c) PR curves. (d) ROC curves. (e) Grad-CAM visualization. Best viewed in color.**
 
-### Dataset Access
-Due to patient privacy protections, access to the **MM diagnosis dataset** can be requested by contacting the corresponding author with a reasonable research justification.
-
 ### Dataset Preparation
 Put the dataset as follows:
 ```text
@@ -53,3 +50,6 @@ Re-evaluate all saved best checkpoints and generate out-of-fold metrics:
 ```bash
 python test.py --dataset_root /path/to/DatasetMM --checkpoint_dir outputs/5fold
 ```
+
+### Dataset Access
+Due to patient privacy protections, access to the **MM diagnosis dataset** can be requested by contacting the corresponding author with a reasonable research justification.
