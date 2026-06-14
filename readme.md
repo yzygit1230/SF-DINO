@@ -52,4 +52,4 @@ python test.py --dataset_root /path/to/DatasetMM --checkpoint_dir outputs/5fold
 ```
 
 ### Dataset Access
-Due to patient privacy protections, access to the **MM diagnosis dataset** can be requested by contacting the corresponding author with a reasonable research justification. For any questions or collaborations, please contact [Liye Mei](liyemei@whu.edu.cn), [Cheng Lei](leicheng@whu.edu.cn).
+Due to patient privacy protections, access to the **MM diagnosis dataset** can be requested by contacting the corresponding author with a reasonable research justification. For any questions or collaborations, please contact [Liye Mei](mailto:liyemei@whu.edu.cn), [Cheng Lei](mailto:leicheng@whu.edu.cn).
