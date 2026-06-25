@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-DINOv3-only Baseline
-For ablation study
-"""
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
